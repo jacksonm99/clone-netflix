@@ -34,7 +34,7 @@ body {
       rgba(0, 0, 0, 0.795),
       rgba(0, 0, 0, 0) 100%
     ),
-    url("/img/kitmesu-cover.png");
+    url("/img/kimetsu-cover.png");
   height: 800px;
   background-size: cover;
 }
