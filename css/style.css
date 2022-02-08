@@ -1,0 +1,51 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+.cabecalho {
+  padding-left: 45px;
+  display: inline-flex;
+  align-items: center;
+}
+.cabecalho a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-topo ul li {
+  display: inline-block;
+  font-size: 13px;
+}
+.menu-topo li {
+  margin-left: 9px;
+}
+.menu-topo li :hover {
+  color: rgb(146, 141, 141);
+  transition: 0.5s;
+}
+
+/*filme-principal*/
+
+.filme-principal {
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.795),
+      rgba(0, 0, 0, 0) 100%
+    ),
+    url("/img/kitmesu-cover.png");
+  height: 800px;
+  background-size: cover;
+}
+
+.filme-principal img {
+  margin-top: 200px;
+  margin-left: 45px;
+}
+
+.descricao {
+  font-size: 29px;
+  margin-top: 70px;
+  margin-left: 45px;
+}
